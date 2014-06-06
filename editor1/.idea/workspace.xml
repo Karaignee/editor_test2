@@ -6,8 +6,10 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/application.html.erb" changelist="0d3d250b-a71f-46b8-8f74-2ee8f8ddc893" time="1401995225372" ignored="false" />
     <file path="/application_helper.rb" changelist="0d3d250b-a71f-46b8-8f74-2ee8f8ddc893" time="1401895870705" ignored="false" />
-    <file path="/_form.html.erb" changelist="0d3d250b-a71f-46b8-8f74-2ee8f8ddc893" time="1402058915001" ignored="false" />
-    <file path="/_toolbar.html.erb" changelist="0d3d250b-a71f-46b8-8f74-2ee8f8ddc893" time="1402059534285" ignored="false" />
+    <file path="/_form.html.erb" changelist="0d3d250b-a71f-46b8-8f74-2ee8f8ddc893" time="1402087181650" ignored="false" />
+    <file path="/_toolbar.html.erb" changelist="0d3d250b-a71f-46b8-8f74-2ee8f8ddc893" time="1402086286544" ignored="false" />
+    <file path="/index.html.erb" changelist="0d3d250b-a71f-46b8-8f74-2ee8f8ddc893" time="1402083538296" ignored="false" />
+    <file path="/a.dummy" changelist="0d3d250b-a71f-46b8-8f74-2ee8f8ddc893" time="1402085419615" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,40 +28,31 @@
     <favorites_list name="editor1" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.42168674">
       <split-first>
         <leaf>
           <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="2" selection-start="475" selection-end="475" vertical-scroll-proportion="-6.25">
+                <state line="10" column="2" selection-start="475" selection-end="475" vertical-scroll-proportion="-0.625">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="40" selection-start="671" selection-end="671" vertical-scroll-proportion="-12.166667">
+                <state line="73" column="0" selection-start="2888" selection-end="2888" vertical-scroll-proportion="0.8909091">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bootstrap-wysiwyg.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-wysiwyg.js">
+          <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="159" column="19" selection-start="5146" selection-end="5146" vertical-scroll-proportion="-0.50641024">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="jquery.hotkeys-0.7.9.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/jquery.hotkeys-0.7.9.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="76" column="14" selection-start="2871" selection-end="2871" vertical-scroll-proportion="0.0">
+                <state line="16" column="23" selection-start="290" selection-end="290" vertical-scroll-proportion="-10.0">
                   <folding />
                 </state>
               </provider>
@@ -69,10 +62,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="_toolbar.html.erb" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="_toolbar.html.erb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/articles/_toolbar.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="50" column="0" selection-start="2854" selection-end="2855" vertical-scroll-proportion="0.7761194">
+                <state line="10" column="61" selection-start="621" selection-end="621" vertical-scroll-proportion="0.30612245">
                   <folding />
                 </state>
               </provider>
@@ -95,8 +88,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/articles.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/articles/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/_toolbar.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/articles/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -104,7 +98,7 @@
     <option name="x" value="64" />
     <option name="y" value="-4" />
     <option name="width" value="1297" />
-    <option name="height" value="667" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -571,14 +565,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1297" height="667" extended-state="6" />
+    <frame x="64" y="-4" width="1297" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25461847" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11566265" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -587,7 +582,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -657,13 +651,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="3039" selection-end="3039" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-wysiwyg.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="159" column="19" selection-start="5146" selection-end="5146" vertical-scroll-proportion="0.0">
@@ -726,35 +713,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="475" selection-end="475" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="40" selection-start="671" selection-end="671" vertical-scroll-proportion="-12.166667">
+        <state line="10" column="2" selection-start="475" selection-end="475" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/jquery.hotkeys-0.7.9.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="14" selection-start="2871" selection-end="2871" vertical-scroll-proportion="0.0">
+        <state line="76" column="34" selection-start="2882" selection-end="2882" vertical-scroll-proportion="0.032051284">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/javascripts/bootstrap-wysiwyg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="19" selection-start="5146" selection-end="5146" vertical-scroll-proportion="-0.50641024">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="23" selection-start="290" selection-end="290" vertical-scroll-proportion="-10.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/_toolbar.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="2854" selection-end="2855" vertical-scroll-proportion="0.7761194">
+        <state line="10" column="61" selection-start="621" selection-end="621" vertical-scroll-proportion="0.30612245">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="2888" selection-end="2888" vertical-scroll-proportion="0.8909091">
           <folding />
         </state>
       </provider>
